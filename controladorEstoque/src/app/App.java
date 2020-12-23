@@ -64,7 +64,7 @@ public class App {
 
             if(checarLogin == 1){
                 sistema.menuPrincipal(usurario, scan);
-            }else{0
+            }else{
                 LimparTela();
                 System.out.println("USUÁRIO OU SENHA INCORRETOS!");
                 imprimirMenuLogin(scan);
